@@ -1,7 +1,18 @@
 /*   IMPORTAÇÃO DA FONTE*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+/*alterar cor do placeholder*/
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 15px;
+ }
+.container{
+    position: relative;
+    width: 1920px;
+    height: 2144px;
 
+    background: #FFFFFF;
+}
 /* estilizando header*/
 .header-banner{
     position: absolute;
@@ -9,12 +20,6 @@
     height: 840px;
     top: 0;
     left: 0;
-}
-
-/* classe do carousel do banner principal */
-.owl-carousel img{
-    width: 1920px;
-    height: 840px;
 }
 
 /*
@@ -127,129 +132,604 @@ transform: rotate(90deg);
 }
 
 /* HEADER DA PAGINA*/
-.header-background{
+.header{
     position: absolute;
     width: 1189px;
     height: 35px;
     left: 373px;
     top: 44px;
-    background-color: orange;
 }
-.header-linha2{
+.hamburguer-icon{
     position: absolute;
     width: 30px;
-    height: 0px;
-    left: 1472px;
-    top: 48px;
-
-    border: 1px solid #FFFFFF;
-    transform: rotate(90deg);
+    height: 35px;
+    left: 0;
+    top: 2px;
+    color: #FFFFFF;
+    font-size: 32px;
 }
-.header-linha1{
-    position: absolute;
-    width: 30px;
-    height: 0px;
-    left: 1295px;
-    top: 48px;
-
-    border: 1px solid #FFFFFF;
-    transform: rotate(90deg);
-    
-}
-
-/* LOGO PRINCIPAL*/
-.logo{
+.img-header img {
     position: absolute;
     width: 163px;
     height: 35px;
-    left: 446px;
-    top: 44px;
-    background: url('../img/Logo_N1_Rush_fundo_escuro_bg_tranparente\ 1.png');
+    left: 73px;
+    top: 0px;
 }
-.menu{
+/*MENU DO CLIENTE*/
+.menu-cliente{
+    position: absolute;
+    width: 420px;
+    height: 31px;
+    left: 769px;
+    top: 3px;
+}
+.linha-cliente-1{
     position: absolute;
     width: 30px;
-    height: 35px;
-    left: 400px;
-    right: 0%;
-    top: 44px;
-    bottom: 0%;
-    text-align: center;
-    font-size: 30px;
-    color:#FFFFFF;
-}
+    height: 0px;
+    left: 153px;
+    top: 1px;
 
-/* MENU DO CLIENT*/
-.sacola-ico{
-    position: absolute;
-    font-size: 22px;
-    color: white;
-    left: 1508px;
-    top: 37px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
 }
-.quantidade-sacola{
+.linha-cliente-2{
+    position: absolute;
+    width: 30px;
+    height: 0px;
+    left: 330px;
+    top: 1px;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.bolsa{
+    position: absolute;
+    width: 51px;
+    height: 26px;
+    left: 369px;
+    top: -10px;
+}
+.bolsa-background{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 28px;
+    top: 0px;
+
+    background-color: #3EC6E0;
+    border-radius: 50px;
+}
+.bolsa-numero{
     position: absolute;
     width: 9px;
     height: 16px;
-    left: 1549px;
-    top: 29px;
+    left: 36px;
+    top: 4px;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
+    line-height: 16px;
+
+color: #FFFFFF;
+}
+
+.bolsa-icon {
+    position: absolute;
+    width: 22;
+    height: 22;
+    left: 0%;
+    right: 0%;
+    top: -2px;
+    bottom: 0%;
+    font-size: 25px;
+
     color: #FFFFFF;
 }
-.background-sacola{
+.buscar-campo input{
     position: absolute;
-    width: 23px;
-    height: 23px;
-    left: 1539px;
-    top: 37px;
-    padding: 2px;
-    border-radius: 50px;
-    background: #3EC6E0;
-   
-}
-.buscar{
-    position: absolute;
-    width: 150px;
-    height: 20px;
-    left: 1335px;
-    top: 34px;
-    padding: 2px;
+    width: 80px;
+    height: 18px;
+    left: 250px;
+    top: -8px;
+    padding-left: 5px;
+
+    box-shadow: 0 0 0 0;
+    outline: 0;
+
+    border: none;
+    text-decoration: none;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 
-color: #FFFFFF;
+    color: white;
+
+    background-color: black;
+
 }
-.buscar input {
-    width: 90px;
-    margin-left: 10px;
-    padding: 5px 0 5px 5px;
-    border-radius: 5px;
+.lupa-icon img{
+    position: absolute;
+    width: 25.73px;
+    height: 25.72px;
+    left: 200px;
+    top: -10px;
 }
-.lupa{
-    font-size: 20px;
+.contato-nome{
+    position: absolute;
+    width: 63px;
+    height: 16px;
+    left: 70px;
+    top: -8px;
+    padding: 2px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}
+.contato-icon img{
+    position: absolute;
+    left: 34px;
+    top: -15px;
+
+    transform: rotate(-5deg);
 }
 
 /* mudando o curso no contato e na lupa*/
-#lupa:hover , #contato{
+#lupa:hover , #contato , #menu{
     cursor: pointer;
 }
+/*MENU ESCONDIDO*/
 
-.contato{
+.nav-hover{
+    display: none;
     position: absolute;
-    width: 90px;
-    height: 20px;
-    left: 1210px;
-    padding: 5px 2px 2px 2px;
-    top: 38px;
+    width: 565px;
+    height: 249px;
+    left: 344px;
+    top: 93.48px;
+
+    /* Dark blue */
+    box-shadow: 10px 10px 0 0 #3EC6E0;
+    background: #084154;
+    /* Blue */
+
+    border: 2px solid #3EC6E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.ponteiro-menu{
+    position: absolute;
+    left: 27px;
+    top: -16px;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #3EC6E0;
+    /* Blue */
+    
+}
+.luta{
+    position: absolute;
+    width: 32px;
+    height: 19px;
+    left: 46px;
+    top: 30.48px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+}
+.conteudo-luta{
+    position: absolute;
+    width: 94px;
+    height: 124px;
+    left: 35px;
+    top: 65.48px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
     color: #FFFFFF;
 }
-.contato-nome{
-    margin-left: 10px;
+.acao-aventura{
+    position: absolute;
+    width: 120px;
+    height: 19px;
+    left: 225px;
+    top: 30.48px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
 }
+.conteudo-acao-aventura{
+    position: absolute;
+    width: 79px;
+    height: 124px;
+    left: 215px;
+    top: 65.48px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+ .corrida{
+    position: absolute;
+    width: 54px;
+    height: 19px;
+    left: 400px;
+    top: 30.48px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    
+ }
+ .conteudo-corrida{
+    position: absolute;
+    width: 105px;
+    height: 52px;
+    left: 400px;
+    top: 65.48px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+ }
+.conteudo-categorias{
+    width: 135px;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 10px;
+}
+/* colocando background nos elementos do menu */
+.conteudo-categorias:hover{
+    background: #3EC6E0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*INFORMAÇÕES DO BANNER PRINCIPAL*/
+.banner-info{
+    position: absolute;
+    width: 420px;
+    height: 327px;
+    left: 1015px;
+    top: 209px;
+}
+.header-banner-info{
+    position: absolute;
+    width: 384px;
+    height: 54px;
+    left: 36px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 54px;
+
+    color: #FFFFFF;
+}
+.preco-banner{
+    position: absolute;
+    width: 266px;
+    height: 82px;
+    left: 147px;
+    top: 54px;
+}
+.preco-real{
+    position: absolute;
+    width: 226px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 82px;
+
+    color: #3EC6E0;
+}
+
+.preco-centavos{
+    position: absolute;
+    width: 40px;
+    height: 33px;
+    left: 115px;
+    top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #3EC6E0;
+}
+.descricao-banner{
+    position: absolute;
+    width: 420px;
+    height: 163px;
+    left: 0px;
+    top: 164px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+/* banners zelda e sekiro*/
+.banner-zelda{
+    position: absolute;
+    width: 627px;
+    height: 425px;
+    left: 323px;
+    top: 691px;
+    background: url('../img/zelda_banner.jpg') no-repeat;
+
+}
+.background-nome-zelda-sekiro{
+    position: absolute;
+    width: 588px;
+    height: 61px;
+    left: 0px;
+    top: 357px;
+
+    background: #3EC6E0;
+    border-radius: 0px 0px 5px 5px;
+}
+.retangulo-zelda-sekiro{
+    position: absolute;
+    width: 11px;
+    height: 61px;
+    left: 0px;
+    top: 357px;
+
+    background: #084154;
+    border-radius: 0px 0px 0px 5px;
+}
+.name-card-zelda-sekiro{
+    position: absolute;
+    width: 299px;
+    height: 19px;
+    left: 30px;
+    top: 380px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #084154;
+}
+.line-zelda-sekiro{
+    position: absolute;
+    width: 248px;
+    height: 0px;
+    left: 330px;
+    top: 389px;
+
+    border: 1px solid #084154;
+}
+
+.banner-sekiro{
+    position: absolute;
+    width: 627px;
+    height: 368px;
+    left: 970px;
+    top: 691px;
+
+    background: url('../img/sekiro_banner.jpg') no-repeat;
+}
+
+/*HEADER DESTAQUES*/
+
+.destaques{
+    position: absolute;
+    width: 408px;
+    height: 42px;
+    left: 327px;
+    top: 1199px;
+}
+.pontos-destaques{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 0px;
+    top: 5px;
+}
+.produtos-destaques{
+    position: absolute;
+    width: 358px;
+    height: 42px;
+    left: 50px;
+    top: -6px;
+
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+
+    /* Dark blue */
+
+    color: #084154;
+}
+
+/*ESTILIZAR PRODUTO*/
+
+.foto-produto img{
+    position: absolute;
+    width: 350px;
+    height: 362px;
+    left: 0px;
+    top: 36px;
+}
+.retangulo-produto{
+    position: absolute;
+    width: 350px;
+    height: 2px;
+    left: 0px;
+    top: 414px;
+
+    background: #3EC6E0;
+}
+.produto-nome{
+    position: absolute;
+    width: 250px;
+    height: 16px;
+    left: 36px;
+    top: 441px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #084154;
+}
+.produto-preco{
+    position: absolute;
+    width: 84px;
+    height: 21px;
+    left: 36px;
+    top: 484px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:900;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #084154;
+}
+.produto-comprar{
+    position: absolute;
+    width: 240px;
+    height: 52px;
+    left: 55px;
+    top: 529px;
+
+    background: #3EC6E0;
+    border-radius: 5px;
+}
+.produto-comprar button{
+    position: absolute;
+    width: 142px;
+    height: 17px;
+    left: 49px;
+    top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    background: #3EC6E0;
+    color: #FFFFFF;
+
+    text-decoration: none;
+    border: none;
+}
+/*FOOTER DA PAGINA*/
+.footer{
+    position: absolute;
+    width: 1920px;
+    height: 50px;
+    left: 0px;
+    top: 2094px;
+}
+.retangulo-footer{
+    position: absolute;
+    width: 1373px;
+    height: 50px;
+    left: 547px;
+    top: 0px;
+
+    /* Blue */
+
+    background: #3EC6E0;
+}
+.retangulo-footer-2{
+    width: 547px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+
+    /* Dark blue */
+
+    background: #084154;
+}
+.img-footer img{
+    position: absolute;
+    width: 42px;
+    height: 28px;
+    left: 461px;
+    top: 11px;
+
+}.direitos-reservados{
+    position: absolute;
+    width: 263px;
+    height: 16px;
+    left: 582px;
+    top: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
 

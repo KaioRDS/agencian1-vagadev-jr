@@ -1,0 +1,11 @@
+{
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+             "AgenciaN1\\": "src/class"
+         }
+      }
+     
+}
