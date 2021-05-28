@@ -1,0 +1,835 @@
+@media only screen and (max-width: 375px) {
+
+    .container{
+        position: relative;
+        width: 375px;
+        height: 1676px;
+
+        background: #FFFFFF;
+    }
+    /* estilizando header*/
+    .banner-1{
+        display: none;
+        position: absolute;
+        width: 1920px;
+        height: 840px;
+        top: 0;
+        left: 0;
+        background: url('../img/principal_banner_desktop.jpg') no-repeat ;
+    }
+    .banner-2{
+        display: none;
+        position: absolute;
+        width: 1920px;
+        height: 840px;
+        top: 0;
+        left: 0;
+        background: url('../img/principal_banner_desktop_02.jpg') no-repeat ;
+    }
+    .banner-mobile-1{
+        position: absolute;
+        width: 375px;
+        height: 436px;
+        top: 0;
+        left: 0;
+        background: url('../img/principal_banner_mobile.jpg') no-repeat ;
+    }
+    .banner-mobile-2{
+        display: none;
+        position: absolute;
+        width: 1920px;
+        height: 840px;
+        top: 0;
+        left: 0;
+        background: url('../img/principal_banner_mobile_02.jpg') no-repeat;
+    }
+
+    .nav-banner{
+        position: absolute;
+        width: 375px;
+        height: 52px;
+        left: 0px;
+        top: 436px;
+
+        background: #3EC6E0;
+        border-radius: 0px 0px 0px 10px;
+    }
+    .botoes-paginacao{
+        position: absolute;
+        width: 140px;
+        height: 52px;
+        left: 235px;
+        top: 436px;
+
+        background: #084154;
+        border-radius: 0px;
+    }
+    .texto-navba{
+        position: absolute;
+        width: 114px;
+        height: 9.98px;
+        left: 22px;
+        top: 454px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        transform: rotate(0);
+        color: #FFFFFF;
+    }
+    .line3{
+        display: none;
+    }
+    
+    /* BOTOES DE NAVEGAÇÃO*/
+    .paginacao{
+        position: absolute;
+        width: 52px;
+        height: 15px;
+        left: 18px;
+        top: 18px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #FFFFFF;
+    }
+    .botoes{
+        position: absolute;
+        left: 50.33%;
+        right: 16%;
+        top: 27.09%;
+        bottom: 71.85%;
+    }
+    .botao-navegacao-prev{
+        position: absolute;
+        left: 12px;
+        top: 5px;
+        width: 17px;
+        height: 20px;
+        padding: 5px;
+        
+    }
+    .botao-navegacao-next{
+        position: absolute;
+        width: 17px;
+        height: 20px;
+        left: 35px;
+        top: 5px;
+        padding: 5px;
+    }
+    .navegacao-prev-left{
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        width: 17px;
+        height: 20px;
+        border: 0;
+        color: #FFFFFF;
+    }
+    .navegacao-prev-right{
+        position: absolute;
+        top: -2px;
+        left: 7px;
+        width: 17px;
+        height: 20px;
+        color: #FFFFFF;
+    }
+        /* HEADER DA PAGINA*/
+        #background-menu-mobile{
+            display: none;
+            position: absolute;
+            width: 375px;
+            height:50px;
+            left: -18px;
+            top:  -18px;
+            background-color:#084154 ;
+        }
+    .header{
+        position: absolute;
+        width: 344px;
+        height: 29.24px;
+        left: 18px;
+        top: 16px;
+    }
+    .hamburguer-icon{
+        position: absolute;
+        width: 30px;
+        height: 24px;
+        font-size: 24px;
+        left: 0;
+        top:-2px;
+        background-color: orangered;
+    }
+    .img-header img {
+        position: absolute;
+        width: 107px;
+        height: 23px;
+        left: 55px;
+        top: 0px;
+    }
+    /*MENU DO CLIENTE*/
+    .menu-cliente{
+        position: absolute;
+        width: 130px;
+        height: 23px;
+        left: 200px;
+        top: 0px;
+    }
+    .linha-cliente-1{
+        display: none;
+    }
+    .linha-cliente-2{
+        display: none;
+    }
+    .bolsa{
+        position: absolute;
+        width: 31px;
+        height: 23px;
+        left: 78px;
+        top: 0px;
+    }
+    .bolsa-background{
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 28px;
+        top: 0px;
+    
+        background-color: #3EC6E0;
+        border-radius: 50px;
+    }
+    .bolsa-numero{
+        position: absolute;
+        width: 9px;
+        height: 16px;
+        left: 36px;
+        top: 4px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 16px;
+    
+        color: #FFFFFF;
+    }
+    .bolsa-icon img{
+        position: absolute;
+        width: 22;
+        height: 23;
+        left: 10px;
+        right: 0%;
+        top: -2px;
+        bottom: 0%;
+    
+        color: #FFFFFF;
+    }
+    .buscar-campo input{
+        display: none;
+        position: absolute;
+        width: 80px;
+        height: 18px;
+        left: 250px;
+        top: -8px;
+        padding-left: 5px;
+    
+        box-shadow: 0 0 0 0;
+        outline: 0;
+    
+        border: none;
+        text-decoration: none;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    
+        color: white;
+    
+        background-color: black;
+    
+    }
+    .lupa-icon img{
+        position: absolute;
+        width: 25.73px;
+        height: 23px;
+        left: 45px;
+        top: 0px;
+    }
+    .contato-nome{
+        display: none;
+        position: absolute;
+        width: 63px;
+        height: 16px;
+        left: 70px;
+        top: -8px;
+        padding: 2px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+    
+        color: #FFFFFF;
+    
+    }
+    .contato-icon img{
+        position: absolute;
+        left: 5px;
+        top: -8px;
+    
+        transform: rotate(-5deg);
+    }
+    /*INFORMAÇÕES DO BANNER PRINCIPAL*/
+    .banner-info{
+        position: absolute;
+        width: 375px;
+        height: 214px;
+        left: 0px;
+        top: 222px;
+
+        background: rgba(0, 0, 0, 0.65);
+    }
+    .header-banner-info{
+        position: absolute;
+        width: 217px;
+        height: 27px;
+        left: 129px;
+        top: 14px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+    }
+    .preco-banner{
+        position: absolute;
+        width: 375px;
+        height: 214px;
+        left: 0px;
+        top: 0px;
+    }
+    .preco-real{
+        position: absolute;
+        width: 155px;
+        height: 50.21px;
+        left: 148px;
+        top: 51.66px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 56px;
+
+        /* Blue */
+
+        color: #3EC6E0;
+
+    }
+    .preco-centavos{
+        position: absolute;
+        width: 40px;
+        height: 29.59px;
+        left: 295px;
+        top: 56px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 33px;
+
+        /* Blue */
+
+        color: #3EC6E0;
+
+    }
+    .descricao-banner{
+        position: absolute;
+        width: 317px;
+        height: 99px;
+        left: 29px;
+        top: 102px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 155%;
+        /* or 19px */
+
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+    /*MENU mobile completo*/
+
+    .nav-hover{
+        display: none;
+        position: absolute;
+        position: absolute;
+        width: 375px;
+        height: 1677px;
+        left: 0px;
+        top: 48px;
+
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+        background: #084154;
+ 
+    }
+    .ponteiro-menu{
+        display: none;
+        position: absolute;
+        left: 27px;
+        top: -66px;
+        width: 0; 
+        height: 50px; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #3EC6E0;
+        /* Blue */
+        
+    }
+    .luta{
+        position: absolute;
+        width: 48px;
+        height: 28.02px;
+        left: 45px;
+        top: 101.06px;
+            
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: #FFFFFF;
+    
+    }
+    .conteudo-luta{
+        position: absolute;
+        width: 120px;
+        height: 144.09px;
+        left: 45px;
+        top: 139.08px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 16px;
+    
+        color: #FFFFFF;
+    }
+    .acao-aventura{
+        position: absolute;
+        width: 180px;
+        height: 28.02px;
+        left: 45px;
+        top: 333.2px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: #FFFFFF;
+    }
+    .conteudo-acao-aventura{
+       position: absolute;
+        width: 102px;
+        height: 144.09px;
+        left: 45px;
+        top: 373.22px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        
+        color: #FFFFFF;
+    }
+    .corrida{
+        position: absolute;
+        width: 81px;
+        height: 28.02px;
+        left: 45px;
+        top: 573.34px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height */
+        
+        
+        color: #FFFFFF;
+        
+    }
+    .conteudo-corrida{
+        position: absolute;
+        width: 135px;
+        height: 62.04px;
+        left: 45px;
+        top: 611.36px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        
+        color: #FFFFFF;
+        
+    }
+    .linha-mobile-1{
+        display: block;
+        position: absolute;
+        width: 320px;
+        height: 0px;
+        left: 27px;
+        top: 308.18px;
+        margin-top: 10px;
+
+        border: 1px solid #062C38;
+    }
+    .linha-mobile-2{
+        display: block;
+        position: absolute;
+        width: 320px;
+        height: 0px;
+        left: 27px;
+        top: 548.33px;
+        margin-top: 15px;
+        border: 1px solid #062C38;
+    }
+    .conteudo-categorias{
+        width: 135px;
+        padding: 10px 0 10px 10px;
+        margin-bottom: 10px;
+    }
+    /* banners zelda e sekiro*/
+    .banner-zelda{
+        position: absolute;
+        width: 334.97px;
+        height: 190.88px;
+        left: 21.03px;
+        top: 513px;
+        background: url('../img/zelda_banner-mobile.png') no-repeat;
+    
+    }
+    .background-nome-zelda-sekiro{
+        position: absolute;
+        width: 334.97px;
+        height: 31.64px;
+        left: 0px;
+        top: 187px;
+    
+        background: #3EC6E0;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .retangulo-zelda-sekiro{
+        position: absolute;
+        width: 11px;
+        height: 32px;
+        left: 0px;
+        top: 187px;
+    
+        background: #084154;
+        border-radius: 0px 0px 0px 5px;
+    }
+    .name-card-zelda-sekiro{
+        position: absolute;
+        width: 299px;
+        height: 19px;
+        left: 16.48px;
+        top: 193px;
+        font-family: roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 19px;
+    
+        color: #084154;
+    }
+    .line-zelda-sekiro{
+        position: absolute;
+        width: 80px;
+        height: 0px;
+        left: 239px;
+        top: 201px;
+    
+        border: 1px solid #084154;
+    }
+    .banner-sekiro{
+
+        position: absolute;
+        width: 334.97px;
+        height: 190.88px;
+        left: 20px;
+        top: 742px;
+        
+        background: url('../img/sekiro_banner-mobile.png') no-repeat;
+    }
+
+    /*HEADER DESTAQUES*/
+        .destaques{
+            position: absolute;
+            width: 212px;
+            height: 21px;
+            left: 22px;
+            top: 1003px;
+        }
+        .pontos-destaques{
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            left: 22px;
+            top: 1005px;
+            
+        }
+        .produtos-destaques{
+            position: absolute;
+            width: 200px;
+            height: 30px;
+            left: 37px;
+            top: 3px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 21px;
+            /* identical to box height */
+            
+            
+            /* Dark blue */
+            
+            color: #084154;
+            
+        }
+        /*PRODUTOS*/
+        .foto-produto img{
+            position: absolute;
+            width: 236.5px;
+            height: 244.61px;
+            left: 5px;
+            top: 24.33px;
+        }
+        .retangulo-produto{
+           display: none;
+        }
+        .produto-nome{
+            position: absolute;
+            width: 130px;
+            height: 14px;
+            left: 24px;
+            top: 298px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+
+            /* Dark blue */
+
+            color: #084154;
+        }
+        .produto-preco{
+            position: absolute;
+            width: 197px;
+            height: 18px;
+            left: 24px;
+            top: 329px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 21px;
+
+            /* Dark blue */
+
+            color: #084154;
+
+        }
+        .produto-comprar{
+            position: absolute;
+            width: 240px;
+            height: 52px;
+            left: 15.16px;
+            top: 373px;
+            cursor: pointer;
+        
+            background: #3EC6E0;
+            border-radius: 5px;
+        }
+        .footer{
+            position: absolute;
+            width: 375px;
+            height: 68px;
+            left: 0px;
+            top: 1608px;
+
+        }
+        .retangulo-footer{
+            position: absolute;
+            width: 296px;
+            height: 68px;
+            left: 79px;
+            top: 0px;
+            
+            /* Blue */
+            
+            background: #3EC6E0;
+        }
+        .retangulo-footer-2{
+            width: 79px;
+            height: 68px;
+            left: 0px;
+            top: 0px;
+        
+            /* Dark blue */
+        
+            background: #084154;
+        }
+        .img-footer img{
+            position: absolute;
+            width: 42px;
+            height: 28px;
+            left: 16px;
+            top: 21px;
+
+        }
+        .direitos-reservados{
+            position: absolute;
+            width: 214px;
+            height: 16px;
+            left: 99px;
+            top: 21px;
+        
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+        
+            color: #FFFFFF;
+        }
+        .modal-compra-finalizada{    
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 375px;
+            height: 1660px;
+            background: rgba(8, 65, 84, 0.62);
+            
+        }
+        .modal-div-compra-finalizada{
+            position: absolute;
+            width: 344px;
+            height: 500px;
+            left: 16px;
+            top: 555px;
+
+            background: #FFFFFF;
+            border-radius: 5px;
+        }
+
+        .modal-header-compra-finalizada{
+            position: absolute;
+            width: 245px;
+            height: 79px;
+            left: 61px;
+            top: 115px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+            
+            /* Dark blue */
+            
+            color: #084154;
+        }
+        .modal-line-compra-finalizada{
+            position: absolute;
+            width: 340px;
+            height: 0px;
+            left: 1px;
+            top: 145px;
+            
+            background: #FFFFFF;
+            border-radius: 5px;
+        }
+        .modal-imagem-compra-finalizada{
+            position: absolute;
+            width: 217px;
+            height: 279px;
+            left: 60px;
+            top: 221px;
+            
+            background: url('../img/image\ 6.png') no-repeat;
+        }
+        .close-modal-compra-finalizada{
+            position: absolute;
+            text-align: center;
+            font-size: 20px;
+            color: #FFFFFF;
+            background-color: #F55959;
+            width: 30.03px;
+            height: 30px;
+            left: 290px;
+            top: 10;
+            line-height: 35px;
+            border-radius: 100px;
+            cursor: pointer;
+            
+        }
+        .modal-ajax-load{
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 375px;
+            height: 1660px;
+            background: rgba(8, 65, 84, 0.62);
+        }
+        .modal-div-load{
+            position: absolute;
+            width: 400.21px;
+            height: 500px;
+            left: -50px;
+            top: 900px;
+        }
+        .modal-div-load img{
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            top: 50%;
+            left: 50%;
+        }
+        
+}
+    

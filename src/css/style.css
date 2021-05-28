@@ -10,21 +10,44 @@
     position: relative;
     width: 1920px;
     height: 2144px;
-
     background: #FFFFFF;
 }
 /* estilizando header*/
-.header-banner{
+.banner-1{
     position: absolute;
     width: 1920px;
     height: 840px;
     top: 0;
     left: 0;
+    background: url('../img/principal_banner_desktop.jpg') no-repeat ;
 }
-
-/*
-        estilos da nav bar principal
-*/
+.banner-2{
+    display: none;
+    position: absolute;
+    width: 1920px;
+    height: 840px;
+    top: 0;
+    left: 0;
+    background: url('../img/principal_banner_desktop_02.jpg') no-repeat ;
+}
+.banner-mobile-1{
+    display: none;
+    position: absolute;
+    width: 1920px;
+    height: 840px;
+    top: 0;
+    left: 0;
+    background: url('../img/principal_banner_mobile.jpg') no-repeat ;
+}
+.banner-mobile-2{
+    display: none;
+    position: absolute;
+    width: 1920px;
+    height: 840px;
+    top: 0;
+    left: 0;
+    background: url('../img/principal_banner_mobile_02.jpg') no-repeat;
+}
 .nav-banner{
     position: absolute;
     width: 63px;
@@ -120,16 +143,6 @@
     height: 20px;
     color: #FFFFFF;
 }
-.teste{
-    position: absolute;
-    width: 30px;
-    height: 0px;
-    left: 1472px;
-    top: 48px;
-
-border: 1px solid white;
-transform: rotate(90deg);
-}
 
 /* HEADER DA PAGINA*/
 .header{
@@ -146,7 +159,7 @@ transform: rotate(90deg);
     left: 0;
     top: 2px;
     color: #FFFFFF;
-    font-size: 32px;
+    font-size: 35px;
 }
 .img-header img {
     position: absolute;
@@ -286,7 +299,7 @@ color: #FFFFFF;
 }
 
 /* mudando o curso no contato e na lupa*/
-#lupa:hover , #contato , #menu{
+#lupa:hover ,.bolsa:hover ,.nav-hover:hover , #contato:hover, .botoes:hover{
     cursor: pointer;
 }
 /*MENU ESCONDIDO*/
@@ -311,9 +324,9 @@ color: #FFFFFF;
 .ponteiro-menu{
     position: absolute;
     left: 27px;
-    top: -16px;
+    top: -66px;
     width: 0; 
-    height: 0; 
+    height: 50px; 
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-bottom: 15px solid #3EC6E0;
@@ -412,6 +425,9 @@ color: #FFFFFF;
     
     color: #FFFFFF;
  }
+ .linha-mobile-1,.linha-mobile-2{
+    display: none;
+ }
 .conteudo-categorias{
     width: 135px;
     padding: 10px 0 10px 10px;
@@ -472,7 +488,7 @@ color: #FFFFFF;
     position: absolute;
     width: 40px;
     height: 33px;
-    left: 115px;
+    left: 215px;
     top: 15px;
 
     font-family: Roboto;
@@ -566,7 +582,6 @@ color: #FFFFFF;
 }
 
 /*HEADER DESTAQUES*/
-
 .destaques{
     position: absolute;
     width: 408px;
@@ -653,6 +668,7 @@ color: #FFFFFF;
     height: 52px;
     left: 55px;
     top: 529px;
+    cursor: pointer;
 
     background: #3EC6E0;
     border-radius: 5px;
@@ -663,7 +679,7 @@ color: #FFFFFF;
     height: 17px;
     left: 49px;
     top: 15px;
-
+    cursor: pointer;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -713,7 +729,8 @@ color: #FFFFFF;
     left: 461px;
     top: 11px;
 
-}.direitos-reservados{
+}
+.direitos-reservados{
     position: absolute;
     width: 263px;
     height: 16px;
@@ -730,6 +747,101 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
+.modal-compra-finalizada{    
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 2144px;
+    background: rgba(8, 65, 84, 0.62);
+    
+}
+.modal-div-compra-finalizada{
+    position: absolute;
+    width: 400.21px;
+    height: 500px;
+    left: 759.4px;
+    top: 831px;
 
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.modal-header-compra-finalizada{
+    position: absolute;
+    width: 245.13px;
+    height: 79px;
+    left: 73px;
+    top: 115px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    background-color: #FFFFFF;
+
+    color: #084154;
+}
+.modal-line-compra-finalizada{
+    position: absolute;
+    width: 399.21px;
+    height: 0px;
+    left: 1px;
+    top: 145px;
+
+    /* Dark blue */
+
+    border: 1px solid #084154;
+}
+.modal-imagem-compra-finalizada{
+    position: absolute;
+    width: 217.11px;
+    height: 279px;
+    left: 88.4px;
+    top: 221px;
+    
+    background: url('../img/image\ 6.png');
+}
+.close-modal-compra-finalizada{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #F55959;
+    width: 50.03px;
+    height: 50px;
+    left: 341.17px;
+    top: 14px;
+    line-height: 60px;
+    border-radius: 100px;
+    cursor: pointer;
+    
+}
+.modal-ajax-load{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 2144px;
+    background: rgba(8, 65, 84, 0.62);
+}
+.modal-div-load{
+    position: absolute;
+    width: 400.21px;
+    height: 500px;
+    left: 759.4px;
+    top: 831px;
+}
+.modal-div-load img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+}
 
 
